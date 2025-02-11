@@ -146,7 +146,7 @@ print('-'*90)
 # open_bal=statements[0][-1]
 for i in range(1,len(statements)):
     statements[i][-1] = statements[i-1][-1] + statements[i][-2] - statements[i][-3];
-#     print(statement)
+    print(statements[i])
 #     print(statement[-5],statement[-3],statement[-2],statement[-1])
 # Convert extracted data to DataFrame
 columns = ["Date", "Transaction Type", "Details", "Paid Out", "Paid In", "Balance"]
