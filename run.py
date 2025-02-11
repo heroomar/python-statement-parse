@@ -1,3 +1,4 @@
+import utils.session
 import pdfplumber
 import pandas as pd
 import re
